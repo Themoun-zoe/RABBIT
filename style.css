@@ -6,17 +6,17 @@
 
 @font-face {
     font-family: 'NanumSquareRoundEB'; /*a name to be used later*/
-    src: url('../fonts/NanumSquareRoundEB.ttf'); /*URL to font*/
+    src: url('./fonts/NanumSquareRoundEB.ttf'); /*URL to font*/
 }
 
 @font-face {
     font-family: 'NanumSquareRoundR'; /*a name to be used later*/
-    src: url('../fonts/NanumSquareRoundR.ttf'); /*URL to font*/
+    src: url('./fonts/NanumSquareRoundR.ttf'); /*URL to font*/
 }
 
 @font-face {
     font-family: 'yangjin'; /*a name to be used later*/
-    src: url('../fonts/yangjin.ttf'); /*URL to font*/
+    src: url('./fonts/yangjin.ttf'); /*URL to font*/
 }
 
  body {
@@ -26,7 +26,7 @@
     top:-10px;
     bottom:0;
     align-items:center;
-    background: url('../images/bg/bg_top.png');
+    background: url('./images/bg/bg_top.png');
     /* background-position: relative; */
     background-size:cover;
     background-repeat: no-repeat;  
@@ -103,7 +103,7 @@
     /* justify-content: space-between; */ 
     gap: 1em;
     margin-top: 150px;
-    /* height: min(60%, 600px); */
+    height: min(60%, 600px);
     width: 100%;
 }
 
@@ -125,7 +125,7 @@
 .input-code {
     /* align-self: center; */
     margin: 1.5em;
-    width: 300px;
+    width: 200px;
     /* max-width: none !important; */
     height: 70px;
     filter: drop-shadow(0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.5));
