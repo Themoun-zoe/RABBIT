@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'NanumSquareRoundEB'; /*a name to be used later*/
+    src: url('../fonts/NanumSquareRoundEB.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'NanumSquareRoundR'; /*a name to be used later*/
+    src: url('../fonts/NanumSquareRoundR.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'yangjin'; /*a name to be used later*/
+    src: url('../fonts/yangjin.ttf'); /*URL to font*/
+}
+
+ body {
+    display: flex;
+    background-attachment: relative;
+    height:100vh;
+    top:-10px;
+    bottom:0;
+    align-items:center;
+    background: url('../images/bg/bg_top.png');
+    /* background-position: relative; */
+    background-size:cover;
+    background-repeat: no-repeat;  
+    overflow:hidden;
+} 
+
+.bg-container {
+    position: absolute;
+    width:calc(max(120%,330px));
+    height:calc(max(200px,35%));
+    bottom:0;
+    right:0px;
+    /* left:-10px; */
+    z-index:-2;
+    
+}
+
+.bg-box {
+    width:100%;
+    height:100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: absolute;
+    bottom:0px;
+    z-index:-1;
+}
+
+.info-btn {
+    width: 70px;    
+    height: 70px;
+    top:13px;
+    right:13px;
+    position: absolute;
+    background-color: transparent;
+    border:none;
+    cursor: pointer;
+    filter: drop-shadow(0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.5));
+}
+
+/* modal */
+.modal {
+    display:none;
+    position:fixed;
+    z-index:1;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: white;
+    float: right;
+    margin: 0 0 0 0;
+    padding: 20px;
+    border: none;
+    width: 80%;
+}
+
+.close {
+    top: 2em;
+    right: 2em;
+    color: #ccc;
+    position: absolute;
+}
+
+
+.content-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: space-between; */ 
+    gap: 1em;
+    margin-top: 150px;
+    /* height: min(60%, 600px); */
+    width: 100%;
+}
+
+.logo {
+    width: 80%;
+    
+}
+
+.content-text {
+    font-size: min(5.5vw, 2em);
+    font-family: 'yangjin';
+    letter-spacing: 0.2em;
+    color: white;
+    background-color: rgba(4, 72, 112, 0.413);
+    padding: 0.3em 0.6em 0.6em 0.7em;
+    border-radius: 16px;
+}
+
+input {
+    /* align-self: center; */
+    margin: 1.5em;
+    width: 300px;
+    /* max-width: none !important; */
+    height: 70px;
+    filter: drop-shadow(0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.5));
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
