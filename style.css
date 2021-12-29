@@ -97,18 +97,17 @@
 .content-wrap {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
-    /* justify-content: space-between; */ 
-    gap: 1em;
-    margin-top: 150px;
+    justify-content: space-evenly; 
+    /* gap: 0.5em; */
+    /* margin-top: 2rem; */
     height: min(60%, 600px);
     width: 100%;
 }
 
 .logo {
-    width: 80%;
-    
+    width: clamp(250px, 80%, 500px);    
 }
 
 .content-text {
@@ -122,10 +121,8 @@
 }
 
 .input-code {
-    /* align-self: center; */
-    margin: 1.5em;
-    width: 200px;
-    /* max-width: none !important; */
+    align-items: center;
+    width: 250px; 
     height: 70px;
     filter: drop-shadow(0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.5));
 }
