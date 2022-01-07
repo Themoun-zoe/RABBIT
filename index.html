@@ -23,9 +23,16 @@
     <div id="myModal" class="modal">
         <div class="modal-content">
             <div class="close-btn">
-                <a id="closeBtn"><img src="./images/icon/icon_delete.svg" alt=""></a>
+                <a id="close-Btn"><img src="./images/icon/icon_delete.svg" alt=""></a>
             </div>
-            <p>modal text</p>
+            <div class="modal-text">
+            <dl>
+                <dt>안녕하세요, 래빗팡의 모험을 이용해주셔서 감사합니다.</dt>
+                <dt>제작사 : 주식회사 시티서커스</dt>
+                <dt>문의처 : email@citycircus.kr</dt>
+                <dd style="margin-left:60px;">070-8885-8812</dd>
+            </dl>
+            </div>
         </div>
     </div>
 
@@ -33,9 +40,9 @@
             <div class="logo">
             <img src="./images/bg/logo.svg"  alt=""></div>
             <div class="content-text">코드를 입력하세요</div>
-           <form>
-                <input class="input-code" type="password">
-            </form>
+            <input class="input-code" type="password">
+            <div id="codeError"></div>
+            <img src="./images/icon/icon_play.svg" alt="" id="codeBtn" class="start-btn">
     </div>
     <script src="rabbit.js"></script>
 

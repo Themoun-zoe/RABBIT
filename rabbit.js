@@ -4,6 +4,6 @@ $('#info-Btn').click(function(){
   });
 
 
-  $('#closeBtn').click(function(){
+  $('#close-Btn').click(function(){
     $('#myModal').css({display: "none"});
   });
