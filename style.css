@@ -40,7 +40,7 @@
     bottom: 0;
     right: 0px;
     /* left:-10px; */
-    z-index: -2;  
+    z-index: -3;  
 }
 
 .bg-box {
@@ -166,7 +166,7 @@ dd {
     width: 250px; 
     height: 70px;
     filter: drop-shadow(0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.5));
-    z-index: -10;
+    z-index: -2;
 }
 
 .start-btn {
