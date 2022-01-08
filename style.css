@@ -153,11 +153,11 @@ dd {
 
 .content-text {
     font-size: min(5.5vw, 2em);
-    font-family: 'yangjin';
+    font-family: yangjin;
     letter-spacing: 0.2em;
     color: white;
     background-color: rgba(4, 72, 112, 0.413);
-    /* padding: 0.3em 0.6em 0.6em 0.7em; */
+    padding: 0.2em 0.6em 0.5em 0.7em;
     height: auto;
     border-radius: 16px;
 }
@@ -171,7 +171,7 @@ dd {
 }
 
 .start-btn {
-    width: clamp(60px, 30%, 120px);
+    width: clamp(30px, 20%, 120px);
     cursor: pointer;
 }
 
