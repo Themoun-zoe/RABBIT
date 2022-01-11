@@ -36,7 +36,8 @@
 .bg-container {
     position: absolute;
     width: calc(max(120%,330px));
-    height: calc(max(200px,35%));
+    /* height: calc(max(200px,35%)); */
+    height: 100vh;
     bottom: 0px;
     right: 0px;
     /* left:-10px; */
