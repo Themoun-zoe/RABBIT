@@ -147,7 +147,7 @@ dd {
     /* justify-content: center; */
     align-items: center;
     justify-content: space-evenly; 
-    height: min(75%, 1000px);
+    height: min(75%, 800px);
     width: 100%;
     
 }
