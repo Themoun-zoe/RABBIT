@@ -20,7 +20,7 @@
 }
 
  body {
-    display: flex;
+    /* display: flex; */
     background-attachment: relative;
     height: 100vh;
     /* top: -10px; */
