@@ -23,8 +23,8 @@
     display: flex;
     background-attachment: relative;
     height: 100vh;
-    /* top: -10px; */
-    bottom: 0;
+    top: 0px;
+    bottom: 0px;
     align-items: center;
     background: url('../images/bg/bg_top.png');
     /* background-position: relative; */
