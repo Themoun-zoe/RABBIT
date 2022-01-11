@@ -20,7 +20,7 @@
 }
 
  body {
-    /* display: flex; */
+    display: flex;
     background-attachment: relative;
     height: 100vh;
     /* top: -10px; */
@@ -30,7 +30,7 @@
     /* background-position: relative; */
     background-size: cover;
     background-repeat: no-repeat;  
-    overflow: auto;
+    overflow: hidden;
 } 
 
 .bg-container {
