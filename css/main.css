@@ -36,8 +36,7 @@
 .bg-container {
     position: absolute;
     width: calc(max(120%,330px));
-    /* height: calc(max(200px,35%)); */
-    height: 100vh;
+    height: calc(max(200px,35%));
     bottom: 0px;
     right: 0px;
     /* left:-10px; */
@@ -46,7 +45,7 @@
 
 .bg-box {
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: absolute;
