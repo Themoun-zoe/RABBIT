@@ -30,10 +30,10 @@ $('#info-Btn').click(function(){
     console.log('done');
   });
 
-  // $('#codeBtn').click(function(e){
-  //   e.preventDefault();
-  //   window.location.href = "./stage1-1.html";
-  // });
+  $('#startBtn').click(function(e){
+    e.preventDefault();
+    window.location.href = "./stage1-1.html";
+  });
 
 
 });
