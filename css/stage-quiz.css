@@ -182,14 +182,22 @@ dd {
 
 .input-code {
     border: none;
-    border-radius: 10px;
-    margin-right: 10px;
+    border-radius: 30px;
+    margin-right: 15px;
     /* align-items: center; */
-    width: 160px; 
-    height: 60px;
+    width: 200px; 
+    height: 50px;
     font-size: 22px;
     text-indent: 0.7em;
-    filter: drop-shadow(0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.5));
+    border: 1px solid transparent;
+    border-top: none;
+    border-bottom: 1px solid #DDD;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.39), 0 -1px 1px #FFF, 0 1px 0 #FFF;
+}
+
+.input-code:focus{
+    outline: 1px solid rgba(109, 252, 245, 0.872)
+    ;
 }
 
 .next-btn {
