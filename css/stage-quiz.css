@@ -43,7 +43,25 @@
     border: none;
     cursor: pointer;
     filter: drop-shadow(0.3rem 0.3rem 0.3rem rgba(0, 0, 0, 0.461));
+    -webkit-tap-highlight-color : transparent;
+
 }
+
+.info-btn::after {
+
+    content: "";
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 150%;
+        height: 200%;
+        border-radius: 20px;
+        border: 1px dashed #ccc; /* 가상 요소 영역을 표시하기 위한 용도로 실제로는 필요 없음 */
+        background-color: rgba(255,0,0,0.1); /* 가상 요소 영역을 표시하기 위한 용도로 실제로는 필요 없음 */
+}
+
+
 
 .bg-middle {
     width: max(80%,200px);
@@ -99,6 +117,7 @@
     top: 13px;
     right: 13px;
     filter: drop-shadow(0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.31));
+    -webkit-tap-highlight-color : transparent;
 }
 
 .infoModal-text {
@@ -155,6 +174,7 @@ dd {
     top: 13px;
     right: 13px;
     filter: drop-shadow(0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.31));
+    -webkit-tap-highlight-color : transparent;
 }
 
 .close-btn:hover, .close-btn:focus {
@@ -264,4 +284,5 @@ dd {
     /* margin: 30px 27px 0 auto; */
     cursor: pointer;
     filter: drop-shadow(0.3rem 0.3rem 0.3rem rgba(0, 0, 0, 0.461));
+    -webkit-tap-highlight-color : transparent;
 } 
