@@ -3,15 +3,15 @@ $(document).ready(function () {
 
 var txtErr = "<p style='color:orangered; font-size: 1em; margin-bottom: -2em;'>코드를 잘못 입력 되었습니다. <br> 다시 확인하고 입력해 주세요.</p>";
 
-$('#info-Btn').click(function(){
-    $('#myModal').css({display: "block"});
-    console.log("hello");
-  });
+// $('#info-Btn').click(function(){
+//     $('#myModal').css({display: "block"});
+//     console.log("hello");
+//   });
 
 
-  $('#close-Btn').click(function(){
-    $('#myModal').css({display: "none"});
-  });
+//   $('#close-Btn').click(function(){
+//     $('#myModal').css({display: "none"});
+//   });
 
   $('#codeBtn').click(function(e){
     e.preventDefault();

@@ -5,27 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/stage-story.css">
     <title>Rabbit</title>
 </head>
 <body>
-    <div class="main">
-        <button id="info-Btn" class="info-btn">
-            <img src="./images/icon/icon_info.svg" alt="">
-        </button>   
-        <div class="bg-container">
-          <div class="bg-box">
-            <img src="./images/bg/bg_bottom1.svg">
-          </div>
-        </div> 
+<!-- background bottom image & info btn -->
+    <div class="bg-box">
+        <img src="./images/bg/bg_bottom3.svg">
     </div>
 
+    <div>
+        <a id="info-Btn" class="info-btn">
+            <img src="./images/icon/icon_info.svg" alt="">
+        </a> 
+    </div> 
+
+<!-- info modal -->
+
     <div id="myModal" class="modal">
+
         <div class="modal-content info-modal">
             <div class="close-btn">
                 <a id="close-Btn"><img src="./images/icon/icon_delete.svg" alt=""></a>
             </div>
-            <div class="modal-text">
+            <div class="infoModal-text">
                 <dl>
                     <dt> <span class="half-underline">안녕하세요,<br> 래빗팡의 모험을 이용해주셔서 감사합니다.</span></dt>
                     <br>
@@ -36,19 +39,40 @@
                 </dl>
             </div>
         </div>
+
     </div>
+
+<!-- story contents & next btn -->
 
     <div class="content-wrap">
-            <div class="logo">
-            <img src="./images/bg/logo.svg"  alt=""></div>
-            <div class="content-text">코드를 입력하세요</div>
-            <input id="codeInput" class="input-code" type="text" inputmode="numeric" placeholder="코드" >
-            <img src="./images/icon/icon_play.svg" alt="" id="codeBtn" class="start-btn">
-            <div id="codeError"></div>
+
+        <div class="content-text item1">
+            <p class="story">
+                내가 엄마를 위해<br>할 수 있는 일이 없을까..?<br>
+                용궁 신문에 혹시 방법이 있을지도 모른다.
+                <br>.
+                <br>.
+                <br>.
+                <br>
+                <br>
+                아래의 그림과 매치되는<br>
+                기사내용을 읽어보자!<br>
+            </p>
+        </div>
+
+        <div class="content-image item1">
+            
+            <img class="image1" src="./images/images_stage1/sta-1-1.png" alt="">
+
+        </div>
+
+        <a class="next-btn item2" href="stage1-2.html">
+            <img src="./images/icon/icon_play.svg">
+        </a>
+
     </div>
-    <script src="./js/main.js"></script>
+
+
     <script src="./js/info-modal.js"></script>
-    
 
 </body>
-</html>

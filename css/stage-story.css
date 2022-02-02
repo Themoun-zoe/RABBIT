@@ -67,9 +67,9 @@
     background: linear-gradient(180deg, rgba(255, 255, 255, 1) 29%, rgba(203, 243, 249, 1) 100%);
     float: right;
     /* margin: 0 0 0 0; */
-    padding: 20px;
-    width: min(100%, 25em);
-    height: 25em;
+    padding: 5px;
+    /* width: min(100%, 25em);
+    height: 25em; */
     align-items: center;
     border-radius: 10px;
     /* width: 50%;
@@ -81,6 +81,7 @@
     top: 0;
     right:0;
 }
+
 
 #close-Btn {
     -webkit-tap-highlight-color: transparent;
@@ -99,14 +100,14 @@
   }
   
 
-.modal-text {
-    width: 20em;
-    height: 15em;
+.infoModal-text {
+    font-family: NanumSquareRoundR;
+    /* font-size: clamp(1vh, 40%, 1.5vh); */
+    width: 100%;
     border-radius: 10px;
     border-color: grey;
     border-style: dotted;
-    padding: 0.5em;
-    /* border-width: medium; */
+    padding: 1em;
 }
 
 dl,dt,dd {

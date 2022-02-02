@@ -28,7 +28,7 @@
             <div class="close-btn">
                 <a id="close-Btn"><img src="./images/icon/icon_delete.svg" alt=""></a>
             </div>
-            <div class="modal-text">
+            <div class="infoModal-text">
                 <dl>
                     <dt> <span class="half-underline">안녕하세요,<br> 래빗팡의 모험을 이용해주셔서 감사합니다.</span></dt>
                     <br>
@@ -40,6 +40,29 @@
             </div>
         </div>
 
+    </div>
+
+<!-- hint modal -->
+
+    <div id="myHintModal" class="modal">
+        <div class="modal-content hint-modal">
+          <div class="close-btn">
+            <!-- x button &times -->
+            <a id='hintCloseBtn'><img src="./images/icon/icon_delete.svg" alt=""></a>
+          </div>
+          <div class="img-top-hint">
+            <img src="./images/icon/icon_hint.svg" alt="">
+          </div>
+          <div class="img-bottom-hint">
+            <img src="./images/icon/bg_hinticon.svg" alt="">
+          </div>
+          <div class="hintModal-text">
+            <p>항해일지에 적힌 시간을 날짜 순서대로</p>
+            <p>나열 후 조타륜에 적힌 시계 모양대로</p>
+            <p>시침, 분침, 초침을 대입해 보세요</p>
+            <br>
+          </div>
+        </div>
     </div>
 
 <!-- story contents & next btn -->
@@ -63,15 +86,15 @@
 
 
         <div class="answer-box item2">
-                <input id="codeInput" class="input-code" type="text" inputmode="numeric" placeholder="정답" >
+                <input id="codeInput" index=0 oninput="this.value = this.value.toUpperCase();" type="text" class="input-code" type="text" inputmode="numeric" placeholder="정답" >
 
-                <img src="./images/icon/icon_play.svg" class="next-btn" alt="" id="startBtn">
-            
+                <img src="./images/icon/icon_play.svg" class="next-btn" alt="" id="nextBtn">    
         </div>
 
-    </div>
 
 
-    <script src="./js/rabbit.js"></script>
+
+    <script src="./js/info-modal.js"></script>
+    <script src="./js/hint-modal.js"></script>
 
 </body>
