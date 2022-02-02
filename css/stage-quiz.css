@@ -44,6 +44,7 @@
     cursor: pointer;
     filter: drop-shadow(0.3rem 0.3rem 0.3rem rgba(0, 0, 0, 0.461));
     -webkit-tap-highlight-color : transparent;
+    /* z-index: -1; */
 
 }
 
@@ -230,7 +231,7 @@ dd {
     margin-top: min(10vh, 10em);
     height: min(75%, 800px);
     width: 100%;   
-    z-index: 0; 
+    z-index: -2; 
 }
 
 .item1 {
