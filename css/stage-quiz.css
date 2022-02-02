@@ -219,7 +219,7 @@ dd {
     bottom: -4vh;
     width: 100%;
     /* max-height: 250px;   */
-    z-index: -3
+    z-index: -4
 }
 
 .content-wrap {
@@ -231,7 +231,7 @@ dd {
     margin-top: min(10vh, 10em);
     height: min(75%, 800px);
     width: 100%;   
-    z-index: -2; 
+    /* z-index: -2;  */
 }
 
 .item1 {
