@@ -58,8 +58,6 @@
         width: 150%;
         height: 200%;
         border-radius: 20px;
-        border: 1px dashed #ccc; /* 가상 요소 영역을 표시하기 위한 용도로 실제로는 필요 없음 */
-        background-color: rgba(255,0,0,0.1); /* 가상 요소 영역을 표시하기 위한 용도로 실제로는 필요 없음 */
 }
 
 
@@ -226,11 +224,13 @@ dd {
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
+    width: 100%;  
     align-items: center;
     justify-content: center; 
     margin-top: min(10vh, 10em);
     height: min(75%, 800px);
-    width: 100%;   
+    /* height: auto; */
+     
     /* z-index: -2;  */
 }
 
@@ -243,7 +243,7 @@ dd {
     align-items: center;
     display: inline-flex;
     position: relative;
-    width: 100vw;
+    /* width: 100vw; */
     flex: 0 0 20%;
 }
 
