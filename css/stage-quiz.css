@@ -20,17 +20,23 @@
 }
 
  body {
-    display: flex;
-    background-attachment: fixed;
+    /* display: flex; */
+    /* background-attachment: fixed; */
     /* position: block; */
     margin: 0;
     background: rgb(255,255,255);
     background: linear-gradient(180deg, rgba(255,255,255,1) 32%, rgba(152,190,223,1) 84%);
     background-size: cover;
     background-repeat: no-repeat;  
-    min-height: 100vh;
+    height: 100vh;
     /* overflow: auto; */
 } 
+
+.container {
+    flex: 1 1 auto;
+    position: relative;
+
+}
 
 .info-btn {
     width: max(6vw,3em);    
