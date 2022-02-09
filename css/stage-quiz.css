@@ -22,7 +22,7 @@
  body {
     display: flex;
     background-attachment: relative;
-    position: block;
+    /* position: block; */
     margin: 0;
     height: 110vh;
     /* width: 100vw; */
