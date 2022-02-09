@@ -225,11 +225,11 @@ dd {
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
-    position: fixed;
+    position: absolute;
     width: 100%;  
     align-items: center;
     justify-content: center; 
-    margin-top: min(12vh, 90px);
+    margin-top: min(8vh, 80px);
     /* height: min(75%, 800px); */
     /* height: auto; */
      
