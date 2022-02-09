@@ -19,6 +19,7 @@
     src: url('../fonts/Yangjin.ttf'); /*URL to font*/
 }
 
+
  body {
     /* display: flex; */
     /* background-attachment: fixed; */
@@ -29,7 +30,7 @@
     background-size: cover;
     background-repeat: no-repeat;  
     height: 100vh;
-    /* overflow: auto; */
+    overflow: hidden;
 } 
 
 .container {
@@ -228,14 +229,13 @@ dd {
 .content-wrap {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
-    position: absolute;
+    position: relative;
     width: 100%;  
     align-items: center;
     justify-content: center; 
     margin-top: min(8vh, 80px);
     /* height: min(60%, 500px); */
-    height: auto;
+    /* height: auto; */
      
     /* z-index: -2;  */
 }
