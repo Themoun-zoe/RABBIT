@@ -21,16 +21,15 @@
 
  body {
     display: flex;
-    background-attachment: relative;
+    background-attachment: fixed;
     /* position: block; */
     margin: 0;
-    height: 110vh;
-    /* width: 100vw; */
     background: rgb(255,255,255);
     background: linear-gradient(180deg, rgba(255,255,255,1) 32%, rgba(152,190,223,1) 84%);
     background-size: cover;
     background-repeat: no-repeat;  
-    overflow: auto;
+    min-height: 100vh;
+    /* overflow: auto; */
 } 
 
 .info-btn {
@@ -45,7 +44,6 @@
     cursor: pointer;
     filter: drop-shadow(0.3rem 0.3rem 0.3rem rgba(0, 0, 0, 0.461));
     -webkit-tap-highlight-color : transparent;
-    /* z-index: -1; */
 
 }
 
@@ -230,8 +228,8 @@ dd {
     align-items: center;
     justify-content: center; 
     margin-top: min(8vh, 80px);
-    /* height: min(75%, 800px); */
-    /* height: auto; */
+    /* height: min(60%, 500px); */
+    height: auto;
      
     /* z-index: -2;  */
 }
@@ -246,7 +244,7 @@ dd {
     display: inline-flex;
     position: relative;
     /* width: 100vw; */
-    flex: 0 0 20%;
+    flex: 0 0 25%;
 }
 
 .content-text{
