@@ -22,6 +22,7 @@
  body {
     display: flex;
     background-attachment: relative;
+    position: block;
     margin: 0;
     height: 110vh;
     /* width: 100vw; */
@@ -230,7 +231,7 @@ dd {
     justify-content: center; 
     margin-top: min(6vh, 50px);
     /* height: min(75%, 800px); */
-    height: auto;
+    /* height: auto; */
      
     /* z-index: -2;  */
 }
@@ -251,11 +252,13 @@ dd {
 .content-text{
     color: rgba(29,78,137,1.00);
     font-family: Yangjin;
-    font-size: clamp(2.2vh, 60%, 3vh);
+    font-size: clamp(0.9rem,4.4vw,2rem);
     /* font-size: 2.2vh; */
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     text-align: center;
-    line-height: 180%;
+    line-height: 150%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     /* margin-bottom: 0; */
 }
 
