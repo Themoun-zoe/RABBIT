@@ -31,14 +31,9 @@
     background-size: cover;
     background-repeat: no-repeat;  
     height: 100vh;
-    overflow: hidden;
+    overflow: auto;
 } 
 
-.container {
-    flex: 1 1 auto;
-    position: relative;
-
-}
 
 .info-btn {
     width: max(6vw,3em);    
@@ -67,13 +62,21 @@
         border-radius: 20px;
 }
 
-
-
 .bg-middle {
     width: max(80%,200px);
     position: fixed;
     top: 20%;
     left: 30vw;
+}
+
+.bg-box {
+    /* display: block; */
+    align-self: flex-end;
+    position: fixed;
+    bottom: -4vh;
+    width: 100%;
+    /* max-height: 250px;   */
+    z-index: -4
 }
 
 /* modal */
@@ -218,14 +221,7 @@ dd {
   }
 
 
-.bg-box {
-    /* display: block; */
-    position: fixed;
-    bottom: -4vh;
-    width: 100%;
-    /* max-height: 250px;   */
-    z-index: -4
-}
+
 
 .content-wrap {
     display: flex;
