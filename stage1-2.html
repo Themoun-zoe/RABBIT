@@ -9,96 +9,97 @@
     <title>Rabbit</title>
 </head>
 <body>
-<!-- background bottom image & info btn -->
-        <div>
-            <a id="info-Btn" class="info-btn">
-                <img src="./images/icon/icon_info.svg" alt="">
-            </a> 
-        </div> 
+        
+        <!-- info modal -->
 
-        <div class="bg-middle">
-            <img src="./images/clip/stage1_middle.svg" alt="">
-        </div>
+        <div id="myModal" class="modal">
 
-        <div class="bg-box">
-            <img src="./images/bg/bg_bottom2.svg">
-        </div>
-   
-
-<!-- info modal -->
-
-    <div id="myModal" class="modal">
-
-        <div class="modal-content info-modal">
-            <div class="close-btn">
-                <a id="close-Btn"><img src="./images/icon/icon_delete.svg" alt=""></a>
-            </div>
-            <div class="infoModal-text">
-                <dl>
-                    <dt> <span class="half-underline">안녕하세요,<br> 래빗팡의 모험을 이용해주셔서 감사합니다.</span></dt>
-                    <br>
-                    <br>
-                <dt><strong>제작사 :</strong> 주식회사 시티서커스</dt>
-                <dt><strong>문의처 : </strong>email@citycircus.kr</dt>
-                <dd style="margin-left:56px;">070-8885-8812</dd>
-                </dl>
+            <div class="modal-content info-modal">
+                <div class="close-btn">
+                    <a id="close-Btn"><img src="./images/icon/icon_delete.svg" alt=""></a>
+                </div>
+                <div class="infoModal-text">
+                    <dl>
+                        <dt> <span class="half-underline">안녕하세요,<br> 래빗팡의 모험을 이용해주셔서 감사합니다.</span></dt>
+                        <br>
+                        <br>
+                    <dt><strong>제작사 :</strong> 주식회사 시티서커스</dt>
+                    <dt><strong>문의처 : </strong>email@citycircus.kr</dt>
+                    <dd style="margin-left:56px;">070-8885-8812</dd>
+                    </dl>
+                </div>
             </div>
         </div>
-
-    </div>
 
 <!-- hint modal -->
 
-    <div id="myHintModal" class="modal">
-        <div class="modal-content hint-modal">
-          <div class="close-btn">
-            <!-- x button &times -->
-            <a id='hintCloseBtn'><img src="./images/icon/icon_delete.svg" alt=""></a>
-          </div>
-          <div class="img-top-hint">
-            <img src="./images/icon/icon_hint.svg" alt="">
-          </div>
-          <div class="img-bottom-hint">
-            <img src="./images/icon/bg_hinticon.svg" alt="">
-          </div>
-          <div class="hintModal-text">
-            <p>항해일지에 적힌 시간을 날짜 순서대로</p>
-            <p>나열 후 조타륜에 적힌 시계 모양대로</p>
-            <p>시침, 분침, 초침을 대입해 보세요</p>
-            <br>
-          </div>
+        <div id="myHintModal" class="modal">
+            <div class="modal-content hint-modal">
+                <div class="close-btn">
+                    <!-- x button &times -->
+                    <a id='hintCloseBtn'><img src="./images/icon/icon_delete.svg" alt=""></a>
+                </div>
+                <div class="img-top-hint">
+                    <img src="./images/icon/icon_hint.svg" alt="">
+                </div>
+                <div class="img-bottom-hint">
+                    <img src="./images/icon/bg_hinticon.svg" alt="">
+                </div>
+                <div class="hintModal-text">
+                    <p>항해일지에 적힌 시간을 날짜 순서대로</p>
+                    <p>나열 후 조타륜에 적힌 시계 모양대로</p>
+                    <p>시침, 분침, 초침을 대입해 보세요</p>
+                    <br>
+                </div>
+            </div>
         </div>
-    </div>
 
 <!-- story contents & next btn -->
 
-    <div class="content-wrap">
+        <div class="content-wrap">
 
-        <div class="content-text item1">
-            <p class="story">
-                생명의 정수를 구해야겠다.<br><br>
-                배가 부서져 있으니<br>
-                용궁으로 갈 수 있도록<br>기차를 타야겠다.<br><br>
-                그런데 기차에 시동이 걸리지 않아.<br><br>
-                저쪽에 망가진 조타륜과<br>
-                누굼가 일부러 날개의 항해일지를<br>
-                흩뿌려 놓은 것 같은데... 이것들에<br>
-                뭔가 힌트가 있는게 확실해!<br><br>
-                조타륜과 항해일지의 단서를 통해,<br> 
-                기타의 시동암호를 얻자.<br><br>
-            </p>
-        </div>
+            <div class="info">
+                <a id="info-Btn" class="info-btn">
+                    <img src="./images/icon/icon_info.svg" alt="">
+                </a> 
+            </div> 
+
+            <div class="content-text item1">
+                <p class="story">
+                    생명의 정수를 구해야겠다.<br><br>
+                    배가 부서져 있으니<br>
+                    용궁으로 갈 수 있도록<br>기차를 타야겠다.<br><br>
+                    그런데 기차에 시동이 걸리지 않아.<br><br>
+                    저쪽에 망가진 조타륜과<br>
+                    누굼가 일부러 날개의 항해일지를<br>
+                    흩뿌려 놓은 것 같은데... 이것들에<br>
+                    뭔가 힌트가 있는게 확실해!<br><br>
+                    조타륜과 항해일지의 단서를 통해,<br> 
+                    기타의 시동암호를 얻자.<br><br>
+                </p>
+            </div>
 
 
-        <div class="answer-box item2">
-                <input id="codeInput" index=0 oninput="this.value = this.value.toUpperCase();" type="text" class="input-code" type="text" inputmode="numeric" placeholder="정답" >
+            <div class="answer-box item2">
+                    <input id="codeInput" index=0 oninput="this.value = this.value.toUpperCase();" type="text" class="input-code" type="text" inputmode="numeric" placeholder="정답" >
 
-                <img src="./images/icon/icon_play.svg" class="next-btn" alt="" id="nextBtn">    
-        </div>
+                    <img src="./images/icon/icon_play.svg" class="next-btn" alt="" id="nextBtn">    
+            </div>
+            <!-- <div class="bg-box">
+                <img src="./images/bg/bg_bottom2.svg">
+            </div> -->
 
+        </div>  
+
+
+    <div class="bg-middle">
+        <img src="./images/clip/stage1_middle.svg" alt="">
     </div>
+
+    
+        
+
 
     <script src="./js/info-modal.js"></script>
     <script src="./js/hint-modal.js"></script>
-
 </body>
