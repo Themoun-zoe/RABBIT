@@ -31,11 +31,8 @@ html {
     margin:0;
     bottom:0;
     width: 100%;
-    height: 100%;
-    /* background-image: url('../images/bg/bg_bottom2.svg');
-    background-repeat: no-repeat; 
-    background-position: bottom center;
-    background-attachment: fixed; */
+    height: 100vh;
+    overflow: hidden;
 } 
 
 
