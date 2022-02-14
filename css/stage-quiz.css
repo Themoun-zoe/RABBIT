@@ -35,7 +35,7 @@ html {
     background-image: url('../images/bg/bg_bottom2.svg');
     background-repeat: no-repeat; 
     background-position: bottom center;
-    overflow: scroll;
+    overflow: hidden;
 } 
 
 
@@ -208,8 +208,8 @@ dd {
     justify-content: center; 
     padding-inline: 2em;
     margin-inline: auto;
-    max-width: 90rem;
-    height: 80vh;
+    max-width: 95rem;
+    height: 70vh;
     margin-top: 0.5rem;
     overflow: hidden;
     /* height: min(60%, 500px); */
@@ -232,16 +232,18 @@ dd {
 }
 
 .item1 {
+    /* background-color: tomato; */
     margin-top: 1em;
     flex: 1 0 auto;
 }
 
 .item2 {
+    /* background-color: blue; */
     justify-content: center;
     align-items: center;
     display: inline-flex;
     position: relative;
-    margin-top: 1em;;
+    margin-top: -4em;
     /* width: 100vw; */
     flex: 0 0 20%;
 }
