@@ -40,6 +40,26 @@ html {
 } 
 
 
+.info {
+    height: 40px;
+}
+
+.info-btn {
+    width: max(6vw,3em);    
+    height: auto;
+    top: 16px;
+    right: 16px;
+    /* margin-bottom: 10px; */
+    position: sticky;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    filter: drop-shadow(0.3rem 0.3rem 0.3rem rgba(0, 0, 0, 0.461));
+    -webkit-tap-highlight-color : transparent;
+
+}
+
+
 .modal {
     display: none;
     /* position: fixed; */
@@ -200,24 +220,6 @@ dd {
     /* z-index: -2;  */
 }
 
-.info {
-    height: 40px;
-}
-
-.info-btn {
-    width: max(6vw,3em);    
-    height: auto;
-    top: 16px;
-    right: 16px;
-    /* margin-bottom: 10px; */
-    position: fixed;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    filter: drop-shadow(0.3rem 0.3rem 0.3rem rgba(0, 0, 0, 0.461));
-    -webkit-tap-highlight-color : transparent;
-
-}
 
 .info-btn::after {
 
