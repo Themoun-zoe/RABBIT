@@ -92,7 +92,7 @@ html {
 }
 
 .info-modal {
-    position: absolute;
+    position: sticky;
     top: 0;
     right:0;
 }
