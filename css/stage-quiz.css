@@ -29,7 +29,7 @@ html {
 
 
  body {
-    margin: 0;
+    margin-top: 10px;
     width: 100%;
     height: 100vh;
     background-image: url('../images/bg/bg_bottom2.svg');
@@ -211,8 +211,8 @@ dd {
     padding-inline: 2em;
     margin-inline: auto;
     max-width: 80rem;
-    height: 80vh;
-    /* margin-top: min(8vh, 80px); */
+    height: 70vh;
+    margin-top: 0.5rem;
     /* height: min(60%, 500px); */
     /* height: auto; */
      
@@ -244,7 +244,7 @@ dd {
     position: relative;
     margin-top: 1em;;
     /* width: 100vw; */
-    flex: 0 0 auto;
+    flex: 0 0 20%;
 }
 
 .content-text{
