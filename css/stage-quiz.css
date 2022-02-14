@@ -211,7 +211,8 @@ dd {
     margin-inline: auto;
     max-width: 90rem;
     height: 80vh;
-    /* margin-top: 0.5rem; */
+    margin-top: 0.5rem;
+    overflow: hidden;
     /* height: min(60%, 500px); */
     /* height: auto; */
      
