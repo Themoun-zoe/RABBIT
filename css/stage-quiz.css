@@ -25,6 +25,7 @@ html {
     background-size: cover;
     background-repeat: repeat-y; 
     height: 100vh;
+    overflow: scroll;
 }
 
 
