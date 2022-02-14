@@ -51,8 +51,8 @@
 .info-btn {
     width: max(6vw,3em);    
     height: auto;
-    top: 16px;
-    right: 16px;
+    top: 1.2rem;
+    right: 1.2rem;
     /* margin-bottom: 10px; */
     position: fixed;
     background-color: transparent;
@@ -219,11 +219,11 @@ dd {
     margin-inline: auto;
     max-width: 95rem;
     height: 75vh;
-    margin-top: 0.5rem;
+    margin-top: 4rem;
     overflow: hidden;
     /* height: min(60%, 500px); */
     /* height: auto; */
-    z-index: 5;
+
 }
 
 
@@ -240,13 +240,13 @@ dd {
 }
 
 .item1 {
-    background-color: tomato;
+    /* background-color: tomato; */
     margin-top: 1em;
     flex: 1 0 auto;
 }
 
 .item2 {
-    background-color: blue;
+    /* background-color: blue; */
     justify-content: center;
     align-items: center;
     display: inline-flex;
@@ -259,7 +259,7 @@ dd {
 .content-text{
     color: rgba(29,78,137,1.00);
     font-family: Yangjin;
-    font-size: clamp(1rem,4.7vw,2rem);
+    font-size: clamp(0.9rem,4.6vw,1.6rem);
     /* font-size: 2.2vh; */
     letter-spacing: 1px;
     text-align: center;
