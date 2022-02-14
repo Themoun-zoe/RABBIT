@@ -211,7 +211,7 @@ dd {
     /* height: min(60%, 500px); */
     /* height: auto; */
      
-    /* z-index: -2;  */
+    z-index: -2; 
 }
 
 
@@ -300,6 +300,7 @@ dd {
     background-repeat: no-repeat; 
     background-position: bottom center;
     background-attachment: fixed;
+    z-index: -7;
 }
 
 
