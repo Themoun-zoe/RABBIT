@@ -124,7 +124,7 @@ dl,dt,dd {
 }
 
 .half-underline {
-    background: linear-gradient(to top, rgba(0, 255, 242, 0.653), transparent 50%); 
+    background: -webkit-linear-gradient(to top, rgba(0, 255, 242, 0.806), transparent 50%); 
 }
 
 dl  {
@@ -149,7 +149,6 @@ dd {
     position: fixed;
     bottom: -4vh;
     width: 100%;
-    /* max-height: 250px;   */
     z-index: -3
 }
 
@@ -252,7 +251,6 @@ dd {
     display: inline-flex;
     position: relative;
     margin-top: 0em;
-    /* width: 100vw; */
     flex: 0 0 20%;
 }
 
@@ -272,9 +270,10 @@ dd {
 .input-code {
     border: none;
     border-radius: 30px;
-    margin-right: 15px;
+    margin-right: 12px;
     /* align-items: center; */
-    width: 200px; 
+    width: 60vw; 
+    max-width: 300px;
     height: 50px;
     font-size: 22px;
     text-indent: 0.7em;
@@ -305,17 +304,6 @@ dd {
     top: 20%;
     left: 30vw;
 }
-
-/* .bg-bottom {
-    bottom:-3vh;
-    position: relative;
-    min-height: 100%;
-    min-width: 100%;
-    background-repeat: no-repeat; 
-    background-position: bottom center;
-    z-index: -3;
-    
-} */
 
 
 
