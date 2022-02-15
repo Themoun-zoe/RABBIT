@@ -124,7 +124,7 @@ dl,dt,dd {
 }
 
 .half-underline {
-    background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #9beffc 50%); 
+    background: linear-gradient(to top, #1effe5 30%, transparent 60%); 
 }
 
 dl  {
