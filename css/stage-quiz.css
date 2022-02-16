@@ -125,9 +125,16 @@ dl,dt,dd {
     font-family: NanumSquareRoundR;
 }
 
-.half-underline {
+/* .half-underline {
     background: linear-gradient(to top, rgb(237, 254, 175) 30%, transparent 60%); 
+} */
+
+u {
+    text-decoration: none;
+    display: inline;
+    box-shadow: inset 0 -10px 0 hsla(53, 90%, 83%, 0.93); 
 }
+
 
 dl  {
     /* margin-top: 30px;  */
