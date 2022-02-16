@@ -10,8 +10,15 @@ $(document).ready(function () {
 
         if ($('#codeInput').val() == data.answers[page_index].answer) {
           console.log('correct');
+          //stage1
+          if (page_index == 0) {
+            $('#myLoadingModal').css({display: "block"});
+            setTimeout(function(){
+              window.location.href = "./"+data.answers[page_index].page;
+            },4000);
+          }
           //stage 4
-          if (page_index == 3) {
+          else if (page_index == 3) {
             $('#ticketOverlay').css({display: "block"});
           }
           // stage 6
