@@ -241,7 +241,7 @@ width: 5em;
 
 .item1 {
     /* background-color: tomato; */
-    margin-top: 1em;
+    margin-top: 2em;
     flex: 1 0 auto;
 }
 
@@ -251,8 +251,8 @@ width: 5em;
     align-items: center;
     display: inline-flex;
     position: relative;
-    margin-top: 0em;
-    flex: 0 0 20%;
+    margin-top: 1em;
+    flex: 0 0 30%;
 }
 
 .content-text{

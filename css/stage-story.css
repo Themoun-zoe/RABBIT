@@ -169,8 +169,8 @@ dd {
     padding-inline: 2em;
     margin-inline: auto;
     max-width: 95rem;
-    height: 75vh;
-    margin-top: 4rem;
+    height: 90vh;
+    margin-top: 3.5rem;
     overflow: hidden;
     /* height: min(60%, 500px); */
     /* height: auto; */
@@ -179,19 +179,19 @@ dd {
 
 
 .item1 {
-    /* background-color: tomato; */
-    margin-top: 1em;
+    background-color: tomato;
+    /* margin-top: 1em; */
     flex: 1 0 auto;
 }
 
 .item2 {
-    /* background-color: blue; */
+    background-color: blue;
     /* justify-content: center;
     align-items: center;
     display: inline-flex;
     position: relative;
     margin-top: 0em; */
-    flex: 0 0 20%;
+    flex: 0 0 30%;
 }
 
 .content-text{
@@ -208,12 +208,22 @@ dd {
 }
 
 .content-image {
+    background-color: tomato;
     display: flex;
+    align-items: center;
     justify-content: center;
-    width: min(60vw,25em);
-    /* height: auto; */
+    /* width: min(70vw,25em); */
+    width: 100%;
+    margin-top: -8px;
+    height: auto;
     /* overflow: hidden; */
     filter: drop-shadow(0.15rem 0.15rem 0.2rem rgba(0, 0, 0, 0.283));
+}
+
+.image1 {
+    width: 80%;
+    max-width: 500px;
+    height: auto;
 }
 
 .next-btn {
@@ -221,8 +231,8 @@ dd {
     height: auto;
     /* right: 16px; */
     /* margin: 30px 27px 0 auto; */
-    padding-top: 2.5em;
-    margin-left: 15.5em;
+    padding-top: 1.75rem;
+    margin-left: 14.8rem;
     cursor: pointer;
     filter: drop-shadow(0.3rem 0.3rem 0.3rem rgba(0, 0, 0, 0.461));
     -webkit-tap-highlight-color : transparent;
