@@ -174,7 +174,7 @@ dd {
     overflow: hidden;
     /* height: min(60%, 500px); */
     /* height: auto; */
-    z-index: 3
+    
 
 }
 
@@ -192,7 +192,7 @@ dd {
     display: inline-flex;
     position: relative; 
     padding-top: 2em; 
-    padding-bottom: 3em;
+    padding-bottom: 0.5em;
     flex: 0 0 20%;
 }
 
@@ -247,5 +247,6 @@ dd {
     position: absolute;
     width: max(6vw,3em);
     right: 0;
+    z-index: 3
 }
 
