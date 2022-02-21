@@ -191,7 +191,7 @@ dd {
     align-items: center;
     display: inline-flex;
     position: relative; 
-    padding-top: 0.8em; 
+    padding-top: 2em; 
     padding-bottom: 3em;
     flex: 0 0 20%;
 }
@@ -223,7 +223,7 @@ dd {
 }
 
 .image1 {
-    width: 80%;
+    width: 70%;
     max-width: 500px;
     height: auto;
 }
