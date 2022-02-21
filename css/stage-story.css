@@ -190,8 +190,8 @@ dd {
     align-items: center;
     display: inline-flex;
     position: relative; 
-    margin-top: 0.6em; 
-    padding-bottom: 2px;;
+    margin-top: 0.8em; 
+    padding-bottom: 2em;
     flex: 0 0 30%;
 }
 
@@ -209,7 +209,7 @@ dd {
 }
 
 .content-image {
-    background-color: tomato;
+    /* background-color: tomato; */
     display: flex;
     align-items: center;
     justify-content: center;
