@@ -169,7 +169,7 @@ dd {
     padding-inline: 2em;
     margin-inline: auto;
     max-width: 95rem;
-    height: 90vh;
+    height: 75vh;
     margin-top: 3.5rem;
     overflow: hidden;
     /* height: min(60%, 500px); */
@@ -179,18 +179,19 @@ dd {
 
 
 .item1 {
-    background-color: tomato;
-    /* margin-top: 1em; */
+    /* background-color: tomato; */
+    margin-top: 2em;
     flex: 1 0 auto;
 }
 
 .item2 {
-    background-color: blue;
-    /* justify-content: center;
+    /* background-color: blue; */
+    justify-content: center;
     align-items: center;
     display: inline-flex;
-    position: relative;
-    margin-top: 0em; */
+    position: relative; 
+    margin-top: 0.6em; 
+    padding-bottom: 2px;;
     flex: 0 0 30%;
 }
 
@@ -227,14 +228,23 @@ dd {
 }
 
 .next-btn {
-    width: max(6vw,3em);    
+
+    width: 77vw;   
+    max-width: 355px; 
     height: auto;
+    margin-bottom: 2px;;
     /* right: 16px; */
     /* margin: 30px 27px 0 auto; */
-    padding-top: 1.75rem;
-    margin-left: 14.8rem;
+    /* padding-top: 1.75rem; */
+    /* margin-left: calc(60vw + 14.8rem); */
     cursor: pointer;
     filter: drop-shadow(0.3rem 0.3rem 0.3rem rgba(0, 0, 0, 0.461));
     -webkit-tap-highlight-color : transparent;
 } 
+
+.nbtn {
+    position: absolute;
+    width: max(6vw,3em);
+    right: 0;
+}
 
