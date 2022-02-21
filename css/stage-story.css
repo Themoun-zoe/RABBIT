@@ -169,11 +169,12 @@ dd {
     padding-inline: 2em;
     margin-inline: auto;
     max-width: 95rem;
-    height: 75vh;
+    height: 85vh;
     margin-top: 3.5rem;
     overflow: hidden;
     /* height: min(60%, 500px); */
     /* height: auto; */
+    z-index: 3
 
 }
 
