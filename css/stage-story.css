@@ -169,7 +169,7 @@ dd {
     padding-inline: 2em;
     margin-inline: auto;
     max-width: 95rem;
-    height: 85vh;
+    height: 75vh;
     margin-top: 3.5rem;
     overflow: hidden;
     /* height: min(60%, 500px); */
@@ -181,7 +181,7 @@ dd {
 
 .item1 {
     /* background-color: tomato; */
-    margin-top: 2em;
+    padding-top: 2em;
     flex: 1 0 auto;
 }
 
@@ -191,7 +191,7 @@ dd {
     align-items: center;
     display: inline-flex;
     position: relative; 
-    margin-top: 0.8em; 
+    padding-top: 0.8em; 
     padding-bottom: 2em;
     flex: 0 0 30%;
 }
