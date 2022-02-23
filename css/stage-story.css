@@ -170,10 +170,9 @@ dd {
     padding-inline: 2em;
     margin-inline: auto;
     max-width: 95rem;
-    height: 65vh;
+    height: 100vh;
     margin-top: 2.5rem;
     overflow: hidden;
-    z-index: 5;
     /* height: min(60%, 500px); */
     /* height: auto; */
     
@@ -195,8 +194,8 @@ dd {
     position: relative; 
     /* margin-top: 1em; */
     padding-top: 2em; 
-    padding-bottom: 4em;
-    flex: 0 0 25%;
+    padding-bottom: 10em;
+    flex: 0 0 40%;
 }
 
 .content-text{
