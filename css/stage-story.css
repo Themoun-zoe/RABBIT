@@ -192,7 +192,7 @@ dd {
     display: inline-flex;
     position: relative; 
     padding-top: 2em; 
-    padding-bottom: 0.5em;
+    /* padding-bottom: 0.5em; */
     flex: 0 0 20%;
 }
 
