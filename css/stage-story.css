@@ -191,9 +191,10 @@ dd {
     align-items: center;
     display: inline-flex;
     position: relative; 
+    /* margin-top: 1em; */
     padding-top: 2em; 
     /* padding-bottom: 0.5em; */
-    flex: 0 0 20%;
+    flex: 0 0 30%;
 }
 
 .content-text{
@@ -241,12 +242,13 @@ dd {
     cursor: pointer;
     filter: drop-shadow(0.3rem 0.3rem 0.3rem rgba(0, 0, 0, 0.461));
     -webkit-tap-highlight-color : transparent;
+    
 } 
 
 .nbtn {
     position: absolute;
     width: max(6vw,3em);
     right: 0;
-    z-index: 3
+
 }
 
