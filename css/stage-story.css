@@ -230,7 +230,6 @@ dd {
 }
 
 .next-btn {
-
     width: 77vw;   
     max-width: 355px; 
     height: auto;
@@ -239,9 +238,7 @@ dd {
     /* margin: 30px 27px 0 auto; */
     /* padding-top: 1.75rem; */
     /* margin-left: calc(60vw + 14.8rem); */
-    cursor: pointer;
-    filter: drop-shadow(0.3rem 0.3rem 0.3rem rgba(0, 0, 0, 0.461));
-    -webkit-tap-highlight-color : transparent;
+    
     
 } 
 
@@ -250,6 +247,8 @@ dd {
     width: max(6vw,3em);
     height: auto;
     right: 0;
-
+    cursor: pointer;
+    filter: drop-shadow(0.3rem 0.3rem 0.3rem rgba(0, 0, 0, 0.461));
+    -webkit-tap-highlight-color : transparent;
 }
 
