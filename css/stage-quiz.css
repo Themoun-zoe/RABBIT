@@ -240,13 +240,13 @@ width: 5em;
 
 
 .item1 {
-    /* background-color: tomato; */
+    background-color: tomato;
     margin-top: 2em;
     flex: 1 0 auto;
 }
 
 .item2 {
-    /* background-color: blue; */
+    background-color: blue;
     justify-content: center;
     align-items: center;
     display: inline-flex;
