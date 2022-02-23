@@ -238,7 +238,7 @@ dd {
     /* margin: 30px 27px 0 auto; */
     /* padding-top: 1.75rem; */
     /* margin-left: calc(60vw + 14.8rem); */
-    
+    -webkit-tap-highlight-color : transparent;
     
 } 
 
