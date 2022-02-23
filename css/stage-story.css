@@ -248,6 +248,7 @@ dd {
 .nbtn {
     position: absolute;
     width: max(6vw,3em);
+    height: auto;
     right: 0;
 
 }
