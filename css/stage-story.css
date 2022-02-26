@@ -22,10 +22,10 @@
  body {
     /* display: flex; */
     margin: 0;
-    height: 100vh;
+    height: auto;
     background: rgb(255,255,255);
     background: linear-gradient(180deg, rgba(255,255,255,1) 32%, rgba(152,190,223,1) 84%);
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-size: cover;
     /* background-repeat: repeat;   */
     overflow: hidden;
