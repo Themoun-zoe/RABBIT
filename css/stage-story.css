@@ -28,7 +28,7 @@
     background-attachment: scroll;
     background-size: cover;
     /* background-repeat: repeat;   */
-    /* overflow: hidden; */
+    overflow: hidden;
 } 
 
 .info {
