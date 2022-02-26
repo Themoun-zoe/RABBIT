@@ -20,9 +20,12 @@
 }
 
  body {
-    /* display: flex; */
+    display: flex;
     margin: 0;
-    height: calc(100vh - calc(100vh - 100%));
+    padding-top: 40px;
+    /* height: 100vh; */
+    /* height: calc(100vh - calc(100vh - 100%)); */
+    min-height: -webkit-fill-available;
     background: rgb(255,255,255);
     background: linear-gradient(180deg, rgba(255,255,255,1) 32%, rgba(152,190,223,1) 84%);
     /* background-attachment: scroll; */
