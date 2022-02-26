@@ -31,7 +31,7 @@
     /* background-attachment: scroll; */
     background-size: cover;
     background-repeat:no-repeat;  
-    overflow: auto;
+    overflow: hidden;
 } 
 
 .info {
