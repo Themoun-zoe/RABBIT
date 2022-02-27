@@ -27,9 +27,9 @@
     background: rgb(255,255,255);
     background: linear-gradient(180deg, rgba(255,255,255,1) 32%, rgba(152,190,223,1) 84%);
     background-attachment: fixed;
-    background-size: cover;
+    background-size: contain;
     background-repeat:no-repeat;  
-    overflow: auto;
+    overflow: hidden;
 } 
 
 .info {
