@@ -18,6 +18,9 @@
     font-family: 'Yangjin'; /*a name to be used later*/
     src: url('../fonts/Yangjin.ttf'); /*URL to font*/
 }
+html {
+    height: 100%;
+}
 
  body {
     /* display: flex; */
@@ -28,7 +31,7 @@
     background: rgb(255,255,255);
     background: linear-gradient(180deg, rgba(255,255,255,1) 32%, rgba(152,190,223,1) 84%);
     background-attachment: fixed;
-    background-size: cover;
+    /* background-size: cover; */
     background-repeat:no-repeat;  
     overflow: auto;
 } 
