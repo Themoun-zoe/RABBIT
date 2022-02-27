@@ -173,7 +173,7 @@ dd {
     max-width: 95rem;
     height: 100vh;
     /* margin-top: 2.5rem; */
-    /* overflow: hidden; */
+    overflow: auto;
     /* height: min(60%, 500px); */
     /* height: auto; */
     
