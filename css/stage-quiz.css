@@ -39,7 +39,7 @@
     background-size: contain;
     /* background-repeat: no-repeat;   */
     background-attachment: fixed;
-    overflow: hidden;
+    overflow: auto;
 } 
 
 
