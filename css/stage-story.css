@@ -18,17 +18,18 @@
     font-family: 'Yangjin'; /*a name to be used later*/
     src: url('../fonts/Yangjin.ttf'); /*URL to font*/
 }
-html {
+/* html {
     margin:0;
     padding:0;
     height: 100vh;
     min-height: 100%;
-}
+} */
 
  body {
     /* display: flex; */
     margin: 0;
     padding: 0;
+    inset: 0;
     /* height: 100vh; */
     height: 100vh;
     /* height: calc(100vh - calc(100vh - 100%)); */
@@ -37,7 +38,7 @@ html {
     background: linear-gradient(180deg, rgba(255,255,255,1) 32%, rgba(152,190,223,1) 84%);
     background-size: cover;
     background-repeat:no-repeat;  
-    overflow: auto;
+    /* overflow: auto; */
 } 
 
 .info {
@@ -165,7 +166,7 @@ dd {
 
 .bg-bottom {
     position: fixed;
-    bottom: 0;
+    bottom: -1vh;
     width: 100%;
     z-index: -3
 }
@@ -180,7 +181,7 @@ dd {
     margin-inline: auto;
     max-width: 95rem;
     height: 100vh;
-    background-attachment: scroll;
+    /* background-attachment: scroll; */
     /* margin-top: 2.5rem; */
     /* overflow: auto; */
     /* height: min(60%, 500px); */
