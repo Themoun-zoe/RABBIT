@@ -27,7 +27,7 @@
     height: calc(100vh - calc(100vh - 100%));
     background: rgb(255,255,255);
     background: linear-gradient(180deg, rgba(255,255,255,1) 32%, rgba(152,190,223,1) 84%);
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
     background-size: cover;
     background-repeat:no-repeat;  
     overflow: auto;
@@ -173,6 +173,7 @@ dd {
     margin-inline: auto;
     max-width: 95rem;
     height: 100vh;
+    background-attachment: scroll;
     /* margin-top: 2.5rem; */
     /* overflow: auto; */
     /* height: min(60%, 500px); */
