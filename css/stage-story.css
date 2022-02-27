@@ -21,7 +21,6 @@
 
  body {
     /* display: flex; */
-    /* margin-top: 0.5rem; */
     margin-left: 0;
     height: 100%;
     height: calc(100vh - calc(100vh - 100%));
@@ -38,7 +37,7 @@
 }
 
 .info-btn {
-    width: max(6vw,3em);    
+    width: max(9vw,3em);  
     height: auto;
     top: 1.2rem;
     right: 1.2rem;
@@ -203,11 +202,11 @@ dd {
 .content-text{
     color: rgba(29,78,137,1.00);
     font-family: Yangjin;
-    font-size: clamp(0.7rem,4.2vw,1.4rem);
+    font-size: clamp(0.9rem,4.7vw,1.3rem);
     /* font-size: 2.2vh; */
     letter-spacing: 1.5px;
     text-align: center;
-    line-height: 145%;
+    line-height: 160%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     /* margin-bottom: 0; */
@@ -227,7 +226,7 @@ dd {
 }
 
 .image1 {
-    width: 70%;
+    width: 75%;
     max-width: 500px;
     height: auto;
     filter: drop-shadow(0.15rem 0.15rem 0.2rem rgba(0, 0, 0, 0.283));
@@ -236,7 +235,7 @@ dd {
 .next-btn {
     /* background-color: blueviolet; */
     width: 77vw;   
-    max-width: 355px; 
+    max-width: 550px; 
     height: auto;
     /* margin-bottom: 2px;; */
     /* right: 16px; */
@@ -249,7 +248,7 @@ dd {
 
 .nbtn {
     position: absolute;
-    width: max(6vw,3em);
+    width: max(9vw,3em);
     height: auto;
     right: 0;
     cursor: pointer;
