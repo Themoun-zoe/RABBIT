@@ -261,11 +261,11 @@ width: 5em;
 .content-text{
     color: rgba(29,78,137,1.00);
     font-family: Yangjin;
-    font-size: clamp(0.9rem,4.7vw,1.3rem);
+    font-size: clamp(0.8rem,4.6vw,1.3rem);
     /* font-size: 2.2vh; */
     letter-spacing: 1.5px;
     text-align: center;
-    line-height: 135%;
+    line-height: 140%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     /* margin-bottom: 0; */
