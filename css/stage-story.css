@@ -26,7 +26,7 @@
     height: calc(100vh - calc(100vh - 100%));
     background: rgb(255,255,255);
     background: linear-gradient(180deg, rgba(255,255,255,1) 32%, rgba(152,190,223,1) 84%);
-    /* background-attachment: fixed; */
+    background-attachment: scroll;
     background-size: cover;
     background-repeat:no-repeat;  
     overflow: auto;
@@ -196,17 +196,17 @@ dd {
     /* margin-top: 1em; */
     padding-top: 2em; 
     padding-bottom: 10em;
-    flex: 0 0 40%;
+    flex: 0 0 35%;
 }
 
 .content-text{
     color: rgba(29,78,137,1.00);
     font-family: Yangjin;
-    font-size: clamp(0.9rem,4.7vw,1.3rem);
+    font-size: clamp(0.8rem,4.6vw,1.3rem);
     /* font-size: 2.2vh; */
     letter-spacing: 1.5px;
     text-align: center;
-    line-height: 160%;
+    line-height: 140%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     /* margin-bottom: 0; */
@@ -226,7 +226,7 @@ dd {
 }
 
 .image1 {
-    width: 75%;
+    width: 70%;
     max-width: 500px;
     height: auto;
     filter: drop-shadow(0.15rem 0.15rem 0.2rem rgba(0, 0, 0, 0.283));
