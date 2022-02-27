@@ -231,11 +231,10 @@ width: 5em;
     padding-inline: 2em;
     margin-inline: auto;
     max-width: 95rem;
-    height: 75vh;
-    margin-top: 4rem;
-    overflow: hidden;
-    /* height: min(60%, 500px); */
-    /* height: auto; */
+    /* height: 75vh; */
+    height: 100vh;
+    /* margin-top: 4rem; */
+    /* overflow: hidden; */
 
 }
 
