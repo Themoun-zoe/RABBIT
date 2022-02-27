@@ -33,7 +33,7 @@
     margin: 0;
     /* height: 100vh; */
     height: 100%;
-    height: calc(100vh - calc(100vh - 100%));
+    /* height: calc(100vh - calc(100vh - 100%)); */
     background: rgb(255,255,255);
     background: linear-gradient(180deg, rgba(255,255,255,1) 32%, rgba(152,190,223,1) 84%);
     background-size: cover;
@@ -233,7 +233,7 @@ width: 5em;
     margin-inline: auto;
     max-width: 95rem;
     /* height: 75vh; */
-    height: 80vh;
+    height: 86vh;
     /* margin-top: 4rem; */
     overflow: auto;
 
@@ -264,7 +264,7 @@ width: 5em;
     /* font-size: 2.2vh; */
     letter-spacing: 1.5px;
     text-align: center;
-    line-height: 140%;
+    line-height: 135%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     /* margin-bottom: 0; */
