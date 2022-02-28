@@ -181,7 +181,6 @@ dd {
     /* max-height: -webkit-fill-available; */
     /* height: 80%; */
     margin: 1rem;
-    position: fixed;
     overflow: hidden;
     /* height: min(60%, 500px); */
     /* height: auto;    */
