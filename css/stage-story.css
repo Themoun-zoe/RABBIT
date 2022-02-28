@@ -178,7 +178,7 @@ dd {
     padding-inline: 2em;
     margin-inline: auto;
     max-width: 95rem;
-    max-height: -webkit-fill-available;
+    /* max-height: -webkit-fill-available; */
     /* height: 100vh; */
     /* background-attachment: scroll; */
     /* margin-top: 2.5rem; */
