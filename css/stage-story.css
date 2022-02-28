@@ -35,12 +35,12 @@ html {
     background-size: cover;
     background-repeat: repeat;  
     /* background-attachment: fixed; */
-    overflow: hidden;
+    /* overflow: auto; */
 } 
 
-.info {
-    height: 40px;
-}
+/* .info {
+    height: 70px;
+} */
 
 .info-btn {
     width: max(9vw,3em);  
@@ -179,14 +179,12 @@ dd {
     margin-inline: auto;
     max-width: 95rem;
     /* max-height: -webkit-fill-available; */
-    /* height: 100vh; */
-    /* background-attachment: scroll; */
-    /* margin-top: 2.5rem; */
-    /* overflow: auto; */
+    /* height: 80%; */
+    margin: 1rem;
+    position: fixed;
+    overflow: hidden;
     /* height: min(60%, 500px); */
-    /* height: auto; */
-    
-
+    /* height: auto;    */
 }
 
 
@@ -204,7 +202,7 @@ dd {
     position: relative; 
     margin-top: 4em;
     /* padding-top: 2em;  */
-    padding-bottom: 10em;
+    padding-bottom: 8em;
     flex: 0 0 35%;
 }
 
