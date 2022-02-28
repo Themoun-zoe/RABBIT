@@ -37,7 +37,7 @@
     background: linear-gradient(180deg, rgba(255,255,255,1) 32%, rgba(152,190,223,1) 84%);
     background-size: cover;
     /* background-repeat: repeat;   */
-    overflow: auto;
+    overflow-y: scroll;
 } 
 
 .info {
@@ -165,7 +165,7 @@ dd {
 
 .bg-bottom {
     position: fixed;
-    bottom: -1vh;
+    bottom: -4vh;
     width: 100%;
     z-index: -3
 }
