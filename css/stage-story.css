@@ -165,6 +165,7 @@ dd {
     position: fixed;
     bottom: -4vh;
     width: 100%;
+    min-height: 0px;
     z-index: -3
 }
 
