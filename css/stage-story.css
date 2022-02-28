@@ -32,11 +32,11 @@ html {
     inset: 0;
     /* height: 100vh; */
     height: 100%;
-    /* height: calc(100vh - calc(100vh - 100%)); */
+    height: calc(100vh - calc(100vh - 100%));
     background: rgb(255,255,255);
     background: linear-gradient(180deg, rgba(255,255,255,1) 32%, rgba(152,190,223,1) 84%);
     background-size: cover;
-    /* background-repeat: repeat;   */
+    background-repeat: no-repeat;  
     /* background-attachment: fixed; */
     overflow: auto;
 } 
@@ -168,7 +168,7 @@ dd {
     position: fixed;
     bottom: -5px;
     width: 100%;
-    /* z-index: -3 */
+    z-index: -3
 }
 
 .content-wrap {
