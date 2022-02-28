@@ -34,13 +34,12 @@ html {
     /* height: 100vh; */
     height: 100%;
     height: calc(100vh - calc(100vh - 100%));
-    height: -webkit-fill-available;
     background: rgb(255,255,255);
     background: linear-gradient(180deg, rgba(255,255,255,1) 32%, rgba(152,190,223,1) 84%);
     background-size: cover;
     background-repeat: no-repeat;  
     /* background-attachment: fixed; */
-    /* overflow:  auto; */
+    overflow: hidden;
 } 
 
 
