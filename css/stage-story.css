@@ -35,7 +35,7 @@ html {
     background-size: cover;
     background-repeat: repeat;  
     /* background-attachment: fixed; */
-    /* overflow: auto; */
+    overflow: auto;
 } 
 
 /* .info {
@@ -183,7 +183,7 @@ dd {
     margin: 1rem;
     overflow: hidden;
     /* height: min(60%, 500px); */
-    /* height: auto;    */
+    height: auto;   
 }
 
 
