@@ -234,7 +234,7 @@ width: 5em;
     padding-inline: 2em;
     margin-inline: auto;
     max-width: 95rem;
-    margin: 1rem;
+    margin-top: 1rem;
     overflow: hidden;
     height: auto;  
     /* max-height: -webkit-fill-available; */

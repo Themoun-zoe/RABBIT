@@ -180,7 +180,7 @@ dd {
     max-width: 95rem;
     /* max-height: -webkit-fill-available; */
     /* height: 80%; */
-    margin: 1rem;
+    margin-top: 1rem;
     overflow: hidden;
     /* height: min(60%, 500px); */
     height: auto;   
