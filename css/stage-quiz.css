@@ -163,8 +163,11 @@ dd {
 }
 
 .bg-bottom {
+    flex: 1;
+    -webkit-flex:1;
     position: fixed;
     bottom: -4vh;
+    margin-top: -20px;
     width: 100%;
     min-height: 0px;
     z-index: -3
