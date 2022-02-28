@@ -19,12 +19,12 @@
     src: url('../fonts/Yangjin.ttf'); /*URL to font*/
 }
 
-/* html {
-    background: rgb(255,255,255);
-    background: linear-gradient(180deg, rgba(255,255,255,1) 32%, rgba(152,190,223,1) 84%);
-    background-size: cover;
+html {
+    margin:0;
+    padding:0;
     height: 100vh;
-} */
+    min-height: 100%;
+}
 
 
  body {
