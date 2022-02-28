@@ -166,7 +166,7 @@ dd {
 
 .bg-bottom {
     position: fixed;
-    bottom: -3vh;
+    bottom: -1vh;
     width: 100%;
     z-index: -3
 }
