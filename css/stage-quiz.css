@@ -167,7 +167,7 @@ dd {
     -webkit-flex:1;
     position: fixed;
     bottom: -4vh;
-    margin-top: -20px;
+    margin-bottom: -10px;
     width: 100%;
     min-height: 0px;
     z-index: -3
