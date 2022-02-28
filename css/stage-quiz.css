@@ -48,7 +48,7 @@
 }
 
 .info-btn {
-    width: max(6vw,3em);    
+    width: max(9vw,3em);    
     height: auto;
     top: 1.2rem;
     right: 1.2rem;
@@ -227,8 +227,8 @@ width: 5em;
 .content-wrap {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center; 
+    /* align-items: center;
+    justify-content: center;  */
     padding-inline: 2em;
     margin-inline: auto;
     max-width: 95rem;
