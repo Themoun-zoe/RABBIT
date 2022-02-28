@@ -37,15 +37,15 @@ html {
     background: rgb(255,255,255);
     background: linear-gradient(180deg, rgba(255,255,255,1) 32%, rgba(152,190,223,1) 84%);
     background-size: cover;
-    background-repeat: no-repeat; 
+    background-repeat: repeat; 
     /* background-attachment: fixed; */
-    overflow: hidden;
+    overflow: auto;
 } 
 
 
-.info {
+/* .info {
     height: 40px;
-}
+} */
 
 .info-btn {
     width: max(9vw,3em);    
@@ -234,6 +234,9 @@ width: 5em;
     padding-inline: 2em;
     margin-inline: auto;
     max-width: 95rem;
+    margin: 1rem;
+    overflow: hidden;
+    height: auto;  
     /* max-height: -webkit-fill-available; */
     /* height: 75vh; */
     /* height: 100vh; */
