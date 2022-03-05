@@ -175,22 +175,23 @@ dd {
     flex-direction: column;
     align-items: center;
     justify-content: center; 
+    position: fixed;
     padding-inline: 2em;
     margin-inline: auto;
     max-width: 95rem;
     /* max-height: -webkit-fill-available; */
-    /* height: 80%; */
+    /* height: 70%; */
     margin-top: 1rem;
-    overflow: hidden;
+    /* overflow: hidden; */
     /* height: min(60%, 500px); */
-    height: auto;   
+    /* height: auto;    */
 }
 
 
 .item1 {
     /* background-color: tomato; */
     margin-top: 2em;
-    flex: 1 0 auto;
+    flex: 1 1 auto;
 }
 
 .item2 {
@@ -226,7 +227,7 @@ dd {
     /* width: min(70vw,25em); */
     width: 100%;
     margin-top: -4px;
-    height: auto;
+    /* height: auto; */
     /* overflow: hidden; */
     
 }
