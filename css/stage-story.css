@@ -163,10 +163,10 @@ dd {
 
 .bg-bottom {
     position: fixed;
-    bottom: -4vh;
+    bottom: 0;
     width: 100%;
-    min-height: 0px;
-    z-index: -3
+    /* min-height: 0px; */
+    /* z-index:  */
 }
 
 .content-wrap {
