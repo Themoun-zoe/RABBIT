@@ -163,10 +163,10 @@ dd {
 
 .bg-bottom {
     position: fixed;
-    bottom: 0;
+    bottom: -1rem;
     width: 100%;
     /* min-height: 0px; */
-    /* z-index:  */
+    z-index: -1;
 }
 
 .content-wrap {
@@ -176,12 +176,19 @@ dd {
     align-items: center;
     justify-content: center; 
     position: fixed;
-    padding-inline: 2em;
-    margin-inline: auto;
+    top: 2em;
+    bottom: 0;
+    margin: auto;
+    left: 0;
+    right: 0;
+    /* padding-inline: 2em; */
+    /* margin-inline: auto; */
     max-width: 95rem;
+    height: 90%;
     /* max-height: -webkit-fill-available; */
     /* height: 70%; */
-    margin-top: 1rem;
+    /* margin-left: auto; */
+    /* margin-top: 1rem; */
     /* overflow: hidden; */
     /* height: min(60%, 500px); */
     /* height: auto;    */
@@ -191,7 +198,7 @@ dd {
 .item1 {
     /* background-color: tomato; */
     margin-top: 2em;
-    flex: 1 1 auto;
+    flex: auto;
 }
 
 .item2 {
@@ -200,10 +207,11 @@ dd {
     align-items: center;
     display: inline-flex;
     position: relative; 
-    margin-top: 4em;
+    margin-top: 5em;
     /* padding-top: 2em;  */
     padding-bottom: 8em;
-    flex: 0 0 35%;
+    /* flex: 0 0 35%; */
+    flex: none;
 }
 
 .content-text{
