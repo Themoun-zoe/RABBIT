@@ -157,7 +157,7 @@ dd {
 
 .bg-bottom {
     position: fixed;
-    bottom: -4rem;
+    bottom: -2rem;
     width: 100%;
     z-index: -1;
 }
@@ -231,7 +231,7 @@ width: 5em;
     left: 0;
     right: 0;
     max-width: 95rem;
-    height: min(60%, 500px); 
+    height: min(40%, 500px); 
 }
 
 
@@ -248,9 +248,9 @@ width: 5em;
     display: inline-flex;
     position: relative;
     /* margin-top: 0.5em; */
-    padding-top: -10px;
-    padding-bottom: 9.7em;
-    flex: 0 0 30%;
+    /* padding-top: -15px; */
+    padding-bottom: 10em;
+    flex: 0 0 20%;
 }
 
 .content-text{
@@ -263,7 +263,7 @@ width: 5em;
     line-height: 140%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    /* margin-bottom: 0; */
+    margin-bottom: -0.5em;
 }
 
 .input-code {

@@ -174,7 +174,7 @@ dd {
     left: 0;
     right: 0;
     max-width: 95rem;
-    height: min(60%, 500px);
+    height: min(50%, 500px);
 }
 
 
@@ -210,8 +210,8 @@ dd {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: min(70vw,25em);
-    width: 100%;
+    /* width: min(40vw,25em); */
+    width: 90%;
     margin-top: -4px;   
 }
 
