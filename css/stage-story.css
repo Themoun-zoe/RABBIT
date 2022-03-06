@@ -168,7 +168,7 @@ dd {
     align-items: center;
     justify-content: center; 
     position: fixed;
-    top: 5em;
+    top: 1em;
     bottom: 0;
     margin: auto;
     left: 0;
@@ -190,7 +190,7 @@ dd {
     align-items: center;
     display: inline-flex;
     position: relative; 
-    margin-top: 5em;
+    margin-top: 2.5em;
     padding-bottom: 8em;
     flex: 0 0 35%;
 }

@@ -225,7 +225,7 @@ width: 5em;
     /* padding-inline: 2em;
     margin-inline: auto; */
     position: fixed;
-    top: 5em;
+    top: 4em;
     bottom: 0;
     margin: auto;
     left: 0;
@@ -247,7 +247,7 @@ width: 5em;
     align-items: center;
     display: inline-flex;
     position: relative;
-    margin-top: 1.5em;
+    /* margin-top: 0.5em; */
     padding-top: -10px;
     padding-bottom: 9.7em;
     flex: 0 0 30%;
