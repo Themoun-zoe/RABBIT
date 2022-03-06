@@ -256,14 +256,14 @@ width: 5em;
 .content-text{
     color: rgba(29,78,137,1.00);
     font-family: Yangjin;
-    font-size: clamp(0.85rem,4.6vw,1.3rem);
+    font-size: clamp(1.2rem,4.8vw,1.6rem);
     /* font-size: 2.2vh; */
     letter-spacing: 1.5px;
     text-align: center;
     line-height: 140%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    margin-bottom: -0.5em;
+    margin-bottom: -0.5rem;
 }
 
 .input-code {

@@ -174,7 +174,7 @@ dd {
     left: 0;
     right: 0;
     max-width: 95rem;
-    height: min(50%, 500px);
+    height: min(70%, 800px);
 }
 
 
@@ -191,14 +191,14 @@ dd {
     display: inline-flex;
     position: relative; 
     margin-top: 2.5em;
-    padding-bottom: 8em;
+    padding-bottom: 7em;
     flex: 0 0 35%;
 }
 
 .content-text{
     color: rgba(29,78,137,1.00);
     font-family: Yangjin;
-    font-size: clamp(0.85rem,4.6vw,1.3rem);
+    font-size: clamp(1.2rem,4.8vw,1.6rem);
     letter-spacing: 1.5px;
     text-align: center;
     line-height: 140%;
