@@ -176,7 +176,7 @@ dd {
     align-items: center;
     justify-content: center; 
     position: fixed;
-    top: 2em;
+    top: 3em;
     bottom: 0;
     margin: auto;
     left: 0;
@@ -184,7 +184,7 @@ dd {
     /* padding-inline: 2em; */
     /* margin-inline: auto; */
     max-width: 95rem;
-    height: 90%;
+    height: 60%;
     /* max-height: -webkit-fill-available; */
     /* height: 70%; */
     /* margin-left: auto; */
