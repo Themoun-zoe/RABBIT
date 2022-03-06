@@ -24,17 +24,13 @@ html {
 }
 
  body {
-    /* display: flex; */
     margin: 0;
     padding: 0;
-    /* inset: 0; */
     height: 100vh;
-    /* height: calc(100vh - calc(100vh - 100%));  */
     background: rgb(255,255,255);
     background: linear-gradient(180deg, rgba(255,255,255,1) 32%, rgba(152,190,223,1) 84%);
     background-size: cover;
     background-repeat: repeat;  
-    /* background-attachment: fixed; */
     overflow: auto;
 } 
 
@@ -72,12 +68,10 @@ html {
 .modal {
     display: none;
     position: fixed;
-    /* z-index: 1; */
     width: 100%;
     height: 100vh;
     top: 0;
     left: 0;
-    /* overflow: auto; */
     background-color: rgba(0,0,0,0.7);
     z-index:2;
 }
@@ -99,7 +93,6 @@ html {
 }
 
 .info-modal {
-    /* position: absolute; */
     top: 0;
     right:0;
 }
@@ -165,7 +158,6 @@ dd {
     position: fixed;
     bottom: -1rem;
     width: 100%;
-    /* min-height: 0px; */
     z-index: -1;
 }
 
@@ -181,17 +173,8 @@ dd {
     margin: auto;
     left: 0;
     right: 0;
-    /* padding-inline: 2em; */
-    /* margin-inline: auto; */
     max-width: 95rem;
-    /* height: 40%; */
-    /* max-height: -webkit-fill-available; */
-    /* height: 70%; */
-    /* margin-left: auto; */
-    /* margin-top: 1rem; */
-    /* overflow: hidden; */
     height: min(60%, 500px);
-    /* height: auto;    */
 }
 
 
@@ -208,36 +191,28 @@ dd {
     display: inline-flex;
     position: relative; 
     margin-top: 5em;
-    /* padding-top: 2em;  */
     padding-bottom: 8em;
     flex: 0 0 35%;
-    /* flex: none; */
 }
 
 .content-text{
     color: rgba(29,78,137,1.00);
     font-family: Yangjin;
     font-size: clamp(0.85rem,4.6vw,1.3rem);
-    /* font-size: 2.2vh; */
     letter-spacing: 1.5px;
     text-align: center;
     line-height: 140%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    /* margin-bottom: 0; */
 }
 
 .content-image {
-    /* background-color: tomato; */
     display: flex;
     align-items: center;
     justify-content: center;
-    /* width: min(70vw,25em); */
+    width: min(70vw,25em);
     width: 100%;
-    margin-top: -4px;
-    /* height: auto; */
-    /* overflow: hidden; */
-    
+    margin-top: -4px;   
 }
 
 .image1 {
@@ -248,15 +223,9 @@ dd {
 }
 
 .next-btn {
-    /* background-color: blueviolet; */
     width: 77vw;   
     max-width: 550px; 
     height: auto;
-    /* margin-bottom: 2px;; */
-    /* right: 16px; */
-    /* margin: 30px 27px 0 auto; */
-    /* padding-top: 1.75rem; */
-    /* margin-left: calc(60vw + 14.8rem); */
     -webkit-tap-highlight-color : transparent;
     
 } 

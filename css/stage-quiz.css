@@ -26,19 +26,13 @@ html {
 
 
  body {
-    
-    /* display: flex; */
     margin: 0;
     padding: 0;
-    /* inset: 0; */
     height: 100vh;
-    /* height: 100%; */
-    /* height: calc(100vh - calc(100vh - 100%)); */
     background: rgb(255,255,255);
     background: linear-gradient(180deg, rgba(255,255,255,1) 32%, rgba(152,190,223,1) 84%);
     background-size: cover;
     background-repeat: repeat; 
-    /* background-attachment: fixed; */
     overflow: auto;
 } 
 
@@ -82,7 +76,6 @@ html {
     height: 100vh;
     top: 0;
     left: 0;
-    /* overflow: auto; */
     background: rgba(0,0,0,0.7);
     z-index:2;
 }
@@ -164,11 +157,9 @@ dd {
 
 .bg-bottom {
     position: fixed;
-    bottom: -4vh;
-    /* margin-bottom: -10px; */
+    bottom: -1rem;
     width: 100%;
-    min-height: 0px;
-    z-index: -3
+    z-index: -1;
 }
 
 
@@ -231,18 +222,16 @@ width: 5em;
     flex-direction: column;
     align-items: center;
     justify-content: center; 
-    padding-inline: 2em;
-    margin-inline: auto;
+    /* padding-inline: 2em;
+    margin-inline: auto; */
+    position: fixed;
+    top: 5em;
+    bottom: 0;
+    margin: auto;
+    left: 0;
+    right: 0;
     max-width: 95rem;
-    margin-top: 1rem;
-    overflow: hidden;
-    height: auto;  
-    /* max-height: -webkit-fill-available; */
-    /* height: 75vh; */
-    /* height: 100vh; */
-    /* margin-top: 4rem; */
-    /* overflow: auto; */
-
+    height: min(60%, 500px); 
 }
 
 
