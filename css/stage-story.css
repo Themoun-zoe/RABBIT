@@ -168,7 +168,7 @@ dd {
     align-items: center;
     justify-content: center; 
     position: fixed;
-    top: 1em;
+    top:0.5em;
     bottom: 0;
     margin: auto;
     left: 0;
@@ -198,7 +198,7 @@ dd {
 .content-text{
     color: rgba(29,78,137,1.00);
     font-family: Yangjin;
-    font-size: clamp(1.2rem,4.8vw,1.6rem);
+    font-size: clamp(1.1rem,4.6vw,1.5rem);
     letter-spacing: 1.5px;
     text-align: center;
     line-height: 140%;
