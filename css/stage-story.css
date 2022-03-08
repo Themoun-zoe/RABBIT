@@ -181,7 +181,7 @@ dd {
 .item1 {
     /* background-color: tomato; */
     margin-top: 4em;
-    flex: none;
+    flex: auto;
 }
 
 .item2 {
