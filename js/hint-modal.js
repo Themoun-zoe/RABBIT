@@ -15,7 +15,7 @@ $(document).ready(function () {
             $('#myLoadingModal').css({display: "block"});
             setTimeout(function(){
               window.location.href = "./"+data.answers[page_index].page;
-            },2000);
+            },1000);
           }
           //stage 4
           else if (page_index == 3) {
