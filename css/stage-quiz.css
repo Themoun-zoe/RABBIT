@@ -272,6 +272,12 @@ width: 5em;
     margin-bottom: -0.5rem;
 }
 
+.read-info {
+    color: rgb(83, 106, 133);
+    font-family: Yangjin;
+    font-size: clamp(0.8rem,4vw,1rem);
+}
+
 .input-code {
     border: none;
     border-radius: 30px;
