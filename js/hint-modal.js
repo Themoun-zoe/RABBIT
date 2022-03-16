@@ -1,37 +1,11 @@
 $(document).ready(function () {
     $('#nextBtn').click(function(e){
       e.preventDefault();
-      // page_index variable - stage_1 value is 0 and stage_2 value is 1 etc.
-      var page_index=$("#codeInput").attr("index");
-      
-      $.getJSON("./answers.json", function(data) 
-      {
-      console.log("hello");
-
-        if ($('#codeInput').val() == data.answers[page_index].answer) {
-          console.log('correct');
-          //stage1
-          if (page_index == 0) {
-            $('#myLoadingModal').css({display: "block"});
-            setTimeout(function(){
-              window.location.href = "./"+data.answers[page_index].page;
-            },1000);
-          }
-          //stage 4
-          else if (page_index == 3) {
-            $('#ticketOverlay').css({display: "block"});
-          }
-          // stage 6
-          else if (page_index == 5) {
-            $('#dangerOverlay').css({display: "block"});
-          } else {
-            window.location.href = "./"+data.answers[page_index].page;
-          }
-        } else {
-          $('#myHintModal').css({display: "block"});
-        }
-      });
+      checkAnswer();
     });
+    
+    
+
   
     $('#hintCloseBtn').click(function(){
       $('#myHintModal').css({display: "none"});
@@ -40,9 +14,10 @@ $(document).ready(function () {
     // stage 4
     $('#ticketNextBtn').click(function(){
       $.getJSON("./answers.json", function(data) {
-        var page_index=$("#answer").attr("index");
-        $('#ticketOverlay').css({display: "none"});
+        var page_index=$("#codeInput").attr("index");
+        $('#myTicketModal').css({display: "none"});
         window.location.href = "./"+data.answers[page_index].page;
+        
       });
     });
   
@@ -61,6 +36,34 @@ $(document).ready(function () {
         },4000);
       });
     });
-  
-  
-  });
+});
+
+    function checkAnswer(){ 
+      var page_index=$("#codeInput").attr("index");
+      $.getJSON("./answers.json", function(data) 
+      {
+
+        if ($('#codeInput').val() == data.answers[page_index].answer) {
+          console.log('correct');
+          //stage1
+          if (page_index == 0) {
+            $('#myLoadingModal').css({display: "block"});
+            setTimeout(function(){
+              window.location.href = "./"+data.answers[page_index].page;
+            },1000);
+          }
+          else if (page_index == 3) {
+            $('#myTicketModal').css({display: "block"});
+          }
+          // stage 6
+      else if (page_index == 5) {
+        $('#dangerOverlay').css({display: "block"});
+      } else {
+        window.location.href = "./"+data.answers[page_index].page;
+      }
+      } else {
+        $('#myHintModal').css({display: "block"});
+      }
+      
+    });
+} 

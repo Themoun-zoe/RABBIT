@@ -164,7 +164,7 @@ dd {
 
 
 
-.hint-modal, .loading-modal{
+.hint-modal, .loading-modal, .ticket-modal{
     position: fixed;
     bottom: 0;
     right: 0;
@@ -278,6 +278,37 @@ width: 5em;
     font-size: clamp(0.8rem,4vw,1rem);
 }
 
+.ticket-ani {
+    position: absoute;
+    width: 90%;
+    animation-name: example;
+    animation-duration: 4s;
+  }
+  
+  .stamp-ani {
+    position: absolute;
+    width: 40%;
+    top: 20%;
+    animation-name: stamp;
+    animation-duration: 4s;
+  }
+
+  @keyframes example {
+    0% {width: 10%;}
+    100% {width: 90%;}
+  }
+  
+  @keyframes stamp {
+    0% {opacity: 0;}
+    90% {opacity: 0;}
+    100% {opacity: 0.4;}
+  }
+
+  .button-loc {
+    float: right;
+  width: 2.5em;
+  height: 2.5em;
+  }
 .input-code {
     border: none;
     border-radius: 30px;

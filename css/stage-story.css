@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { 
+    text-decoration: none;
+    -webkit-tap-highlight-color : transparent;
+ }
+
 @font-face {
     font-family: 'NanumSquareRoundEB'; /*a name to be used later*/
     src: url('../fonts/NanumSquareRoundEB.ttf'); /*URL to font*/
@@ -205,6 +213,20 @@ dd {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
+.read-info {
+    color: rgb(83, 106, 133);
+    font-family: NanumSquareRoundR;
+    font-size: clamp(0.8rem,4vw,1rem);
+    line-height: 140%;
+}
+
+#link-add {
+    font-family: NanumSquareRoundR;
+    color: orangered;
+    font-size: 1em;   
+}
+
 
 .content-image {
     display: flex;

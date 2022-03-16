@@ -16,10 +16,7 @@
             <img src="./images/icon/icon_info.svg" alt="">
         </a> 
     </div>
-    <div class="bg-middle">
-        <img src="./images/clip/stage1_middle.svg" alt="">
-    </div>
-
+ 
     <div class="bg-bottom">
         <img src="./images/bg/bg_bottom2.svg">
     </div>
@@ -61,20 +58,21 @@
                 <img src="./images/icon/bg_hinticon.svg" alt="">
             </div>
             <div class="hintModal-text">
-                <p>별주부전엔 거북이가 아닌 <br> 자라가 나와요!</p>
+                <p>흰색책은 자음 ㅇ, 검은색 책은 모음중 -, 녹색책은 모음중 ㅣ 를 의미합니다. 그리고 누워져 있는 책은 모음 역시 같은 방향으로 눕혀주시면 됩니다.</p>
+                <p style='color: red;'>* A를 한글로 써보세요. </p>
                 <br>
             </div>
         </div>
     </div>
 
 
-
-    <div id="myLoadingModal" class="modal">
-        <div class="modal-content loading-modal">
-            <img src="./images/images_stage1/stage1_clip2.gif" alt="">
+    <div id="myTicketModal" class="modal">
+        <div class="modal-content ticket-modal">
+          <img class='ticket-ani' src="./images/images_stage3 4/sta-4-3.png" alt="">
+            <img class='stamp-ani' src="./images/images_stage3 4/sta-4-4.svg" alt="">
+          <img id="ticketNextBtn" class='next-button button-loc' src="./images/icon/icon_play.svg" alt="">
         </div>
-    </div>
-
+      </div>
       
 
 <!-- story contents & next btn -->
@@ -83,34 +81,20 @@
 
         <div class="content-text item1">
             <p>
-                <br>
-                <br>
-                <br>
-                Q. 필요한 변장도구를 찾아주세요.
+                아래의 그림을 참고하여,<br>
+                열린 상자 안에 놓인 책의 종류를<br>
+                확인하고, 그것이 뜻하는 의미를<br>
+                파악해 용궁행 티켓을 획득하라!<br>
             </p>
-    
-            <p class="read-info"> (힌트 - 별주부전의 이야기를 잘 떠올려 주세요.) <br><br></p>
-
-            <p>
-                <br>
-                1) 거북이 등껍질 <br>
-                <br>
-                2) 문어모양 모자 <br>
-                <br>
-                3) 산호초 패딩 <br>
-                <br>
-                4) 자라 등껍질 <br>
-                <br>
-                <br>
-                <br>
-
-            </p>
+        </div>
+        <div class="content-image item2">
             
-           
+            <img class="image1" src="./images/images_stage3 4/sta-4-1.png" alt="">
+
         </div>
 
         <div class="item2">
-                <input id="codeInput" index=1 oninput="this.value = this.value.toUpperCase();" type="text" class="input-code" type="text" placeholder="정답" >
+                <input id="codeInput" index=3 oninput="this.value = this.value.toUpperCase();" type="text" class="input-code" type="text" placeholder="정답" >
 
                 <img src="./images/icon/icon_play.svg" class="next-btn" alt="" id="nextBtn">    
         </div>   
