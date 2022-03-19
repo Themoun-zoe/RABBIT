@@ -242,14 +242,15 @@ width: 5em;
 
 
 .item1 {
-    background-color: tomato;
+    /* background-color: tomato; */
     margin-top: 2em;
-    height: 120%;
-    flex: 1 0 auto;
+    height: 150%;
+    /* flex: 1 1 auto; */
+    flex: 1;
 }
 
 .item2 {
-    background-color: blue;
+    /* background-color: blue; */
     /* justify-content: center; */
     /* align-items: center; */
     display: inline-flex;
