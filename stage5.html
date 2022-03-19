@@ -16,7 +16,10 @@
             <img src="./images/icon/icon_info.svg" alt="">
         </a> 
     </div>
- 
+    <div class="bg-middle">
+        <img src="./images/clip/stage1_middle.svg" alt="">
+    </div>
+
     <div class="bg-bottom">
         <img src="./images/bg/bg_bottom2.svg">
     </div>
@@ -58,21 +61,20 @@
                 <img src="./images/icon/bg_hinticon.svg" alt="">
             </div>
             <div class="hintModal-text">
-                <p>흰색책은 자음 ㅇ, 검은색 책은 모음중 -, 녹색책은 모음중 ㅣ 를 의미합니다. 그리고 누워져 있는 책은 모음 역시 같은 방향으로 눕혀주시면 됩니다.</p>
-                <p style='color: red;'>* A를 한글로 써보세요. </p>
+                <p>정답은 의자입니다.</p>
                 <br>
             </div>
         </div>
     </div>
 
 
-    <div id="myTicketModal" class="modal">
-        <div class="modal-content ticket-modal">
-          <img class='ticket-ani' src="./images/images_stage3 4/sta-4-3.png" alt="">
-            <img class='stamp-ani' src="./images/images_stage3 4/sta-4-4.svg" alt="">
-          <img id="ticketNextBtn" class='next-button button-loc' src="./images/icon/icon_play.svg" alt="">
+
+    <div id="myLoadingModal" class="modal">
+        <div class="modal-content loading-modal">
+            <img src="./images/images_stage1/stage1_clip2.gif" alt="">
         </div>
-      </div>
+    </div>
+
       
 
 <!-- story contents & next btn -->
@@ -81,20 +83,28 @@
 
         <div class="content-text item1">
             <p>
-                아래의 그림을 참고하여,<br>
-                열린 상자 안에 놓인 책의 종류를<br>
-                확인하고, 그것이 뜻하는 의미를<br>
-                파악해 용궁행 티켓을 획득하라!<br>
+                기차에서 내려 생명의 정수가<br>
+                있을 곳을 탐색하던 도중,<br>
+                골목길에서 돌연변이 바다생물들이<br>
+                내 앞을 막아서며 말했다<br>
+                <br>
+                --
+                <br>
+                <br>
+                "우리가 내는 문제를 풀어야 이곳을<br>
+                 지나갈 수 있다. 두가지 문제를 내지.<br>
+                 어디 한번 맞춰봐!"
             </p>
-        </div>
-        <div class="content-image">
-            
-            <img class="image1" src="./images/images_stage3 4/sta-4-1.png" alt="">
-
+            <p class="read-info">
+                * 골목길이 그려진 큐브상자 앞으로 가서<br>
+                  돌연변이들이 주시하고 있는<br>
+                  물체의 명칭을 알아맞춰 보세요<br>
+            </p>
+            <br>
         </div>
 
         <div class="item2">
-                <input id="codeInput" index=3 oninput="this.value = this.value.toUpperCase();" type="text" class="input-code" type="text" placeholder="정답" >
+                <input id="codeInput" index=4 oninput="this.value = this.value.toUpperCase();" type="text" class="input-code" type="text" placeholder="정답" >
 
                 <img src="./images/icon/icon_play.svg" class="next-btn" alt="" id="nextBtn">    
         </div>   

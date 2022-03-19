@@ -242,18 +242,19 @@ width: 5em;
 
 
 .item1 {
-    /* background-color: tomato; */
+    background-color: tomato;
     margin-top: 2em;
+    height: 100%;
     flex: 1 0 auto;
 }
 
 .item2 {
-    /* background-color: blue; */
-    justify-content: center;
-    align-items: center;
+    background-color: blue;
+    /* justify-content: center; */
+    /* align-items: center; */
     display: inline-flex;
     position: relative;
-    /* margin-top: 0.5em; */
+    /* margin-top: auto; */
     /* padding-top: -15px; */
     padding-bottom: 10em;
     flex: 0 0 20%;
@@ -274,7 +275,7 @@ width: 5em;
 
 .read-info {
     color: rgb(83, 106, 133);
-    font-family: Yangjin;
+    font-family: NanumSquareRoundR;
     font-size: clamp(0.8rem,4vw,1rem);
 }
 
