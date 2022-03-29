@@ -184,6 +184,18 @@ dd {
 }
 
 
+#bubble1{
+    width: 7em;
+    margin-top: 3em;
+    margin-left: 9em;
+}
+
+#bubble2{
+    width: 7em;
+    margin-bottom: 1em;
+    margin-right: 9em;
+}
+
 .content-wrap {
     /* background-color: blueviolet; */
     display: flex;
@@ -228,6 +240,7 @@ dd {
     line-height: 140%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    
 }
 
 .read-info {
